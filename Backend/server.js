@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
 const mongoPath =
-	"mongodb+srv://bharath:Bharath%40123@cluster0.arvuh.mongodb.net/fyp?retryWrites=true&w=majority";
+	"mongodb+srv://bharath:Bharath%51234@cluster0.arvuh.mongodb.net/fyp?retryWrites=true&w=majority";
 const port = 5000;
 
 //config
