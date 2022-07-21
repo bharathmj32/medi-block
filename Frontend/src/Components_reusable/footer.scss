@@ -1,0 +1,184 @@
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+#footerContainer{
+    
+    width:90%;
+    margin:0 auto;
+    padding-bottom: 2rem;
+
+    .firstBox{
+        .firstBoxItem1{
+            .logo{
+            }
+            .logoTitle{
+            }
+        }
+        .firstBoxItem2{
+            .descr{
+                width: 21.875rem;
+                font-family: 'SF Pro Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.875rem;
+                line-height: 1.9375rem;
+                color: #8F90A6;
+                text-align:left;
+                @media (max-width:550px) {
+                     text-align: center;
+                     width: 20rem;
+                }
+            }     
+        }
+
+        .firstBoxItem3{
+            width: 60%;
+            .socialIcons{
+                height: 1.375rem;    
+                cursor: pointer;    
+            }
+        }
+        .firstBoxItem4{
+            .copyRights{
+                font-family: 'SF Pro Text';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.8125rem;
+                line-height: 1rem;
+                color: #8F90A6;
+            }
+        }
+    }
+    
+
+
+
+    .secondAndThirdContainer{
+        @media (max-width:550px) {
+            border-bottom: 2px solid #110229 ;    
+         }
+            .secondBox{ 
+                .secondBoxTitle{
+                    padding-bottom: 1rem;
+                    font-family: 'SF Pro Text';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    line-height: 2.25rem;
+                    color: #110229;
+                }
+                .secondBoxLinks{
+                    text-decoration: none;
+                    font-family: 'SF Pro Text';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.125rem;
+                    line-height: 3.25rem;
+                    color: #110229;
+
+                }
+            }
+
+            .thirdBox{
+                .thirdBoxTitle{
+                    //width: 8.4375rem;
+                    padding-bottom: 1rem;
+                    font-family: 'SF Pro Text';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    line-height: 2.25rem;
+                    color: #110229;
+
+                }
+                .thirdBoxLinks{
+                    text-decoration: none;
+                    font-family: 'SF Pro Text';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.125rem;
+                    line-height: 3.25rem;
+                    color: #110229;
+
+                }
+            }
+    }
+
+    .fourthBox{
+        padding-left: 4rem;
+        @media (max-width:550px) {
+            padding-left: 0;
+        }
+        .fourthBoxTitle{
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.25rem;
+            line-height:2.25rem;
+            color: #110229;
+        }
+        .fourthBoxDescr{
+            width: 14.375rem;
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 1.4375rem;
+            color: #8F90A6;
+            @media (max-width:550px) {
+                     text-align: center;
+            }
+        }
+
+        .emailContainer{
+            position: relative;
+            overflow: hidden;
+    
+             &::placeholder , .fourthBoxEmail{
+                width: 17.3125rem;
+                height: 3.375rem;
+                padding-left: 0.9rem;
+                
+                font-family: 'SF Pro Text';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 0.875rem;
+                line-height: 1.4375rem;
+                color: #8F90A6;
+                background: #FFFFFF;
+                border-radius: 0.9375rem;
+                border:none;
+                border: 0.125rem solid #D0D0E3;
+                &:focus {
+                outline: none;
+                }
+                @media (max-width:550px) {
+                     width:  23.3125rem;
+                     height: 3.375rem;
+                }
+            }
+            
+            #emailSendIcon{
+                position: absolute;  
+                width: 2.125rem;
+                height: 2.125rem;
+               
+                right: 0.3125rem;
+                top: 2.25rem;
+                
+                cursor: pointer;
+                color: #1DAEFF;
+                
+                
+            }
+        }
+    }
+
+
+}
